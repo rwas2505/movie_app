@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+10.times do
+  first_name = FFaker::Name.first_name
+  last_name  = FFaker::Name.last_name
+  known_for  = FFaker::Movie.title 
+  Actor.create(first_name: first_name, last_name: last_name, known_for: known_for)
+end
