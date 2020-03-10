@@ -12,3 +12,21 @@
   known_for  = FFaker::Movie.title 
   Actor.create(first_name: first_name, last_name: last_name, known_for: known_for)
 end
+
+Movie.create(
+  {
+    title: "Inception", year: 1998, plot: "DB within a DB within a DB within a DREAM"
+  }
+)
+
+Movie.create(
+  {
+    title: "Catch Me if You can", year: 1997, plot: "You can try, but I'm fast"
+  }
+)
+
+Movie.create(
+  {
+    title: "Blow", year: 1996, plot: "George is crazy"
+  }
+)
