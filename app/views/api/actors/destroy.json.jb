@@ -1,0 +1,1 @@
+{message: "You have removed #{@actor.first_name.upcase} #{@actor.last_name.upcase} from the Actors DB"}

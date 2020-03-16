@@ -1,0 +1,1 @@
+{message: "You have removed #{@movie.title.upcase} from the MOVIE DB"}
