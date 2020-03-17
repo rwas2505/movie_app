@@ -3,6 +3,7 @@
     id: movie.id, 
     title: movie.title,
     year:  movie.year,
-    plot:  movie.plot
+    plot:  movie.plot,
+    english: movie.english
   }
 }
