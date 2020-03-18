@@ -6,7 +6,7 @@ Movie.create!([
   {title: "Catch Me if You can", year: 1998, plot: "You can't catch me, I'm the ginger bread man!", director: "Steven Spielberg"}
 ])
 
-20.times do
+10.times do
   Actor.create!(
     first_name: FFaker::Name.first_name,
     last_name: FFaker::Name.last_name,
