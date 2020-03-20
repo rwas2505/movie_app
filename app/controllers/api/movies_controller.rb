@@ -1,4 +1,5 @@
 class Api::MoviesController < ApplicationController
+  before_action :authenticate_admin, except: [:index, :show]
   def index
     p "*" * 88
     p current_user
