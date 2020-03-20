@@ -1,5 +1,8 @@
 class Api::MoviesController < ApplicationController
   def index
+    p "*" * 88
+    p current_user
+    p "*" * 88
     @movies = Movie.where(english: true)
     # @movies = Movie.all
     render "index.json.jb"
